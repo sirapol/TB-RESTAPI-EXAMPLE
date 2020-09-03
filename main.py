@@ -2,9 +2,9 @@ import json
 import requests
 import random
 
-host = "58.64.25.160"
+host = "yourHost"
 port = 8200
-token = "pAge7KRCDZu6ET85NHb8"
+token = "yourToken"
 header = {"Content-Tpye":"application/json"}
 
 strdata = {"data0":str(random.randint(0,100))}
